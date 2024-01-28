@@ -1,20 +1,29 @@
 import {
   mobile,
-  backend,
   creator,
   web,
-  javascript,
-  typescript,
-  html,
-  css,
+  python,
+  C,
+  C_sharp2,
+  C_plus_plus,
+  Java,
+  angular,
   reactjs,
+  figma,
+  git,
+  html,
+  javascript,
+  mongodb,
+  Net,
+  firebase,
+  Sql,
+  Mui,
+  php,
   redux,
   tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
+  typescript,
+  css,
+  scss,
   TEQNEIA,
   Liquid_C2_MENA,
   Lumin_Soft,
@@ -22,7 +31,6 @@ import {
   carrent,
   jobit,
   tripguide,
-  threejs,
   bld,
 } from "../assets";
 
@@ -57,6 +65,15 @@ const services = [
 ];
 
 const technologies = [
+  { name: "Python", icon: python },
+  { name: "Java", icon: Java },
+  { name: "C", icon: C },
+  { name: "C#", icon: C_sharp2 },
+  { name: "C++", icon: C_plus_plus },
+  { name: ".Net", icon: Net },
+  { name: "PHP", icon: php },
+  { name: "Firebase", icon: firebase },
+
   {
     name: "HTML 5",
     icon: html,
@@ -64,6 +81,10 @@ const technologies = [
   {
     name: "CSS 3",
     icon: css,
+  },
+  {
+    name: "SCSS",
+    icon: scss,
   },
   {
     name: "JavaScript",
@@ -78,8 +99,16 @@ const technologies = [
     icon: reactjs,
   },
   {
+    name: "Angular",
+    icon: angular,
+  },
+  {
     name: "Redux Toolkit",
     icon: redux,
+  },
+  {
+    name: "Material UI",
+    icon: Mui,
   },
   {
     name: "Tailwind CSS",
@@ -94,8 +123,8 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "SQL",
+    icon: Sql,
   },
   {
     name: "git",
