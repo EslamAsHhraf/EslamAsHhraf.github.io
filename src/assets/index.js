@@ -40,6 +40,8 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import LinkedIn from "./LinkedIn.png";
+import cv from "./Cv.png"
 export {
   logo,
   backend,
@@ -79,4 +81,6 @@ export {
   jobit,
   tripguide,
   bld,
+  LinkedIn,
+  cv,
 };

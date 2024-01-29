@@ -33,7 +33,33 @@ import
     jobit,
     tripguide,
     bld,
+    LinkedIn,
+    github,
+    cv
   } from "../assets";
+
+export const socialLinks = [
+  {
+    id: "linkedIn",
+    title: "Linked In",
+    link: "https://www.linkedin.com/in/eslam-ashraf-b70880216/",
+    icon: LinkedIn,
+  },
+  {
+    id: "gitHub",
+    title: "GitHub",
+    link: "https://github.com/EslamAsHhraf",
+    icon: github,
+  },
+  {
+    id: "resume",
+    title: "Resume",
+    link: "https://drive.google.com/file/d/1_lhrx6Dm1rigoqJKfxISz8dxM3MsYRo1/view?usp=sharing",
+    icon: "",
+  },
+];
+
+
 
 export const navLinks = [
   {

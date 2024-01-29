@@ -1,10 +1,11 @@
-import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
+import { socialLinks} from "../constants/index";
+import { Link } from "react-router-dom";
 
 const Hero = () =>
 {
+
   return (
     <section className={ `relative w-full h-screen mx-auto` }>
       <div
@@ -21,30 +22,48 @@ const Hero = () =>
           </h1>
           <p className={ `${styles.heroSubText} mt-2 text-white-100` }>
             Senior Computer Engineering Student  <br className='sm:block hidden' />
-            at Cairo University 
+            at Cairo University
           </p>
-        </div>
-      </div>
-{/* 
-      <ComputersCanvas />
-
-      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
-        <a href='#about'>
-          <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
-            <motion.div
-              animate={ {
-                y: [ 0, 24, 0 ],
-              } }
-              transition={ {
-                duration: 1.5,
-                repeat: Infinity,
-                repeatType: "loop",
-              } }
-              className='w-3 h-3 rounded-full bg-secondary mb-1'
-            />
+          <div className={ `${styles.heroSubText} mt-8 text-white flex gap-5 flex-wrap` }>
+            { socialLinks.map( ( social )  =>
+            (
+              <div className='w-fit text-[18px] font-small green-pink-gradient p-[1px] rounded-[20px] shadow-card' key={social.id}>
+                <Link to={social.link} target="_blank">
+                  <button className='bg-tertiary rounded-[20px] py-3 px-6  flex gap-2  items-center justify-center'  >
+                    { social.icon && <img className='w-8 h-8 object-contain' src={ social.icon }></img> }
+                    {social.title}
+                  </button>
+                </Link>
+              </div>
+            ))}
+            {/* <div className='w-fit text-[18px] font-small green-pink-gradient p-[1px] rounded-[20px] shadow-card'>
+              <Link to="https://www.linkedin.com/in/eslam-ashraf-b70880216/" target="_blank">
+              <button className='bg-tertiary rounded-[20px] py-3 px-6  flex gap-2  items-center justify-center'  >
+                <img className='w-6 h-6 object-contain'  src={ LinkedIn }></img>
+                Linked In
+                </button>
+              </Link>
+            </div>
+            <div className='w-fit text-[18px] font-small green-pink-gradient p-[1px] rounded-[20px] shadow-card'>
+              <Link to="https://github.com/EslamAsHhraf" target="_blank">
+              <button className='bg-tertiary rounded-[20px] py-3 px-6  flex gap-2  items-center justify-center'  >
+                  <img className='w-6 h-6 object-contain' src={ github }></img>
+                GitHub
+                </button>
+              </Link>
+            </div>
+            <div className='w-fit text-[18px] font-small green-pink-gradient p-[1px] rounded-[20px] shadow-card'>
+              <Link to="https://drive.google.com/file/d/1_lhrx6Dm1rigoqJKfxISz8dxM3MsYRo1/view?usp=sharing" target="_blank">
+              <button className='bg-tertiary rounded-[20px] py-3 px-6  flex gap-2  items-center justify-center'  >
+                  <img className='w-6 h-6 object-contain' src={ github }></img>
+               Resume
+                </button>
+              </Link>
+            </div> */}
           </div>
-        </a>
-      </div> */}
+        </div>
+
+      </div>
     </section>
   );
 };
