@@ -1,38 +1,39 @@
-import {
-  mobile,
-  creator,
-  web,
-  python,
-  C,
-  C_sharp2,
-  C_plus_plus,
-  Java,
-  angular,
-  reactjs,
-  figma,
-  git,
-  html,
-  javascript,
-  mongodb,
-  Net,
-  firebase,
-  Sql,
-  Mui,
-  php,
-  redux,
-  tailwind,
-  typescript,
-  css,
-  scss,
-  TEQNEIA,
-  Liquid_C2_MENA,
-  Lumin_Soft,
-  EJADA,
-  carrent,
-  jobit,
-  tripguide,
-  bld,
-} from "../assets";
+import
+  {
+    mobile,
+    creator,
+    web,
+    python,
+    C,
+    C_sharp2,
+    C_plus_plus,
+    Java,
+    angular,
+    reactjs,
+    figma,
+    git,
+    html,
+    javascript,
+    mongodb,
+    Net,
+    firebase,
+    Sql,
+    Mui,
+    php,
+    redux,
+    tailwind,
+    typescript,
+    css,
+    scss,
+    TEQNEIA,
+    Liquid_C2_MENA,
+    Lumin_Soft,
+    EJADA,
+    carrent,
+    jobit,
+    tripguide,
+    bld,
+  } from "../assets";
 
 export const navLinks = [
   {
@@ -65,26 +66,17 @@ const services = [
 ];
 
 const technologies = [
-  { name: "Python", icon: python },
-  { name: "Java", icon: Java },
-  { name: "C", icon: C },
-  { name: "C#", icon: C_sharp2 },
-  { name: "C++", icon: C_plus_plus },
-  { name: ".Net", icon: Net },
-  { name: "PHP", icon: php },
-  { name: "Firebase", icon: firebase },
-
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Python",
+    icon: python,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Java",
+    icon: Java,
   },
   {
-    name: "SCSS",
-    icon: scss,
+    name: "C",
+    icon: C,
   },
   {
     name: "JavaScript",
@@ -99,24 +91,24 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Angular",
-    icon: angular,
-  },
-  {
     name: "Redux Toolkit",
     icon: redux,
   },
   {
-    name: "Material UI",
+    name: "Angular",
+    icon: angular,
+  },
+  {
+    name: "Mui",
     icon: Mui,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Net",
+    icon: Net,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "php",
+    icon: php,
   },
   {
     name: "MongoDB",
@@ -129,14 +121,6 @@ const technologies = [
   {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
@@ -201,33 +185,6 @@ const experiences = [
       " I learned basic about Django and types of Database.",
       "Maintained an organized workflow using project management tools and version control systems like Jira, Slack, Git, and GitHub.",
     ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
@@ -297,4 +254,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };

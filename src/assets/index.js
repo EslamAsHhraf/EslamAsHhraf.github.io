@@ -27,7 +27,7 @@ import Java from "./tech/Java.png";
 import firebase from "./tech/firebase.png";
 import Sql from "./tech/mysql.png";
 import Mui from "./tech/mui.png";
-import php from "./tech/php2.png";
+import php from "./tech/php.png";
 import python from "./tech/python.png";
 
 import TEQNEIA from "./company/TEQNEIA.jpg";
