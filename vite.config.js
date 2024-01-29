@@ -8,11 +8,5 @@ export default defineConfig({
     target: "esnext",
   },
   server: {
-    mimeType: {
-      ".js": "text/jsx",
-      ".mjs": "text/jsx",
-      ".jsx": "text/jsx",
-      ".tsx": "text/jsx",
-    },
   },
 });
