@@ -11,7 +11,6 @@ export default defineConfig({
     mimeType: {
       ".js": "application/javascript",
       ".mjs": "application/javascript",
-      ".jsx": "application/javascript",
       ".tsx": "application/javascript",
     },
   },
