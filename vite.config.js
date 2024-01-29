@@ -9,9 +9,10 @@ export default defineConfig({
   },
   server: {
     mimeType: {
-      ".js": "application/javascript",
-      ".mjs": "application/javascript",
-      ".tsx": "application/javascript",
+      ".js": "text/jsx",
+      ".mjs": "text/jsx",
+      ".jsx": "text/jsx",
+      ".tsx": "text/jsx",
     },
   },
 });
