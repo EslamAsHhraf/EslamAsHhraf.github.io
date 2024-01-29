@@ -29,37 +29,14 @@ const Hero = () =>
             (
               <div className='w-fit text-[18px] font-small green-pink-gradient p-[1px] rounded-[20px] shadow-card' key={social.id}>
                 <Link to={social.link} target="_blank">
-                  <button className='bg-tertiary rounded-[20px] py-3 px-6  flex gap-2  items-center justify-center'  >
+                  <button className='bg-tertiary rounded-[20px] py-3 px-6  flex gap-2  items-center justify-center h-[64px]'  >
                     { social.icon && <img className='w-8 h-8 object-contain' src={ social.icon }></img> }
                     {social.title}
                   </button>
                 </Link>
               </div>
             ))}
-            {/* <div className='w-fit text-[18px] font-small green-pink-gradient p-[1px] rounded-[20px] shadow-card'>
-              <Link to="https://www.linkedin.com/in/eslam-ashraf-b70880216/" target="_blank">
-              <button className='bg-tertiary rounded-[20px] py-3 px-6  flex gap-2  items-center justify-center'  >
-                <img className='w-6 h-6 object-contain'  src={ LinkedIn }></img>
-                Linked In
-                </button>
-              </Link>
-            </div>
-            <div className='w-fit text-[18px] font-small green-pink-gradient p-[1px] rounded-[20px] shadow-card'>
-              <Link to="https://github.com/EslamAsHhraf" target="_blank">
-              <button className='bg-tertiary rounded-[20px] py-3 px-6  flex gap-2  items-center justify-center'  >
-                  <img className='w-6 h-6 object-contain' src={ github }></img>
-                GitHub
-                </button>
-              </Link>
-            </div>
-            <div className='w-fit text-[18px] font-small green-pink-gradient p-[1px] rounded-[20px] shadow-card'>
-              <Link to="https://drive.google.com/file/d/1_lhrx6Dm1rigoqJKfxISz8dxM3MsYRo1/view?usp=sharing" target="_blank">
-              <button className='bg-tertiary rounded-[20px] py-3 px-6  flex gap-2  items-center justify-center'  >
-                  <img className='w-6 h-6 object-contain' src={ github }></img>
-               Resume
-                </button>
-              </Link>
-            </div> */}
+
           </div>
         </div>
 
