@@ -1,42 +1,38 @@
-import
-  {
-    mobile,
-    creator,
-    web,
-    python,
-    C,
-    C_sharp2,
-    C_plus_plus,
-    Java,
-    angular,
-    reactjs,
-    figma,
-    git,
-    html,
-    javascript,
-    mongodb,
-    Net,
-    firebase,
-    Sql,
-    Mui,
-    php,
-    redux,
-    tailwind,
-    typescript,
-    css,
-    scss,
-    TEQNEIA,
-    Liquid_C2_MENA,
-    Lumin_Soft,
-    EJADA,
-    carrent,
-    jobit,
-    tripguide,
-    bld,
-    LinkedIn,
-    github,
-    cv
-  } from "../assets";
+import {
+  mobile,
+  creator,
+  web,
+  python,
+  C,
+  Java,
+  angular,
+  reactjs,
+  git,
+  javascript,
+  mongodb,
+  Net,
+  Sql,
+  Mui,
+  php,
+  redux,
+  typescript,
+  TEQNEIA,
+  Liquid_C2_MENA,
+  Lumin_Soft,
+  EJADA,
+  yummy_front,
+  yummy_back,
+  reddit,
+  bld,
+  LinkedIn,
+  github,
+  Hand_Gesture,
+  Grades_auto_filler,
+  flash,
+  captainHook,
+  operatingSystem,
+  Flappy_Bird,
+} from "../assets";
 
 export const socialLinks = [
   {
@@ -216,67 +212,231 @@ const experiences = [
 
 const projects = [
   {
-    name: "Yummy",
+    name: "Yummy (Frontend)",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
-        name: "react",
+        name: "Angular",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "PrimNG",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Eslint",
         color: "pink-text-gradient",
       },
+      {
+        name: "Jwt Authentication",
+        color: "blue-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: yummy_front,
+    source_code_link: "https://github.com/EslamAsHhraf/Recipe-Frontend",
   },
   {
-    name: "Job IT",
+    name: "Yummy (Backend)",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Yummy is interactive platform for recipe management, meal planning, and social interaction related to cooking and culinary activities.",
     tags: [
       {
-        name: "react",
+        name: "Asp Net Core",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "MVC Architecture",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Firebase",
         color: "pink-text-gradient",
       },
+      {
+        name: "Jwt Authentication",
+        color: "blue-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: yummy_back,
+    source_code_link: "https://github.com/EslamAsHhraf/Recipe-Backend",
   },
   {
-    name: "Trip Guide",
+    name: "Nonlight",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Nonlight mimic some functionalities of Reddit. We are responsible for Front-End part. Nonlight is social media website that can help you to enjoy your time and share your ideas and connect with other people on it.",
     tags: [
       {
-        name: "nextjs",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Mui",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "unit testing",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "json-server",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "socket",
+        color: "green-text-gradient",
+      },
+    ],
+    image: reddit,
+    source_code_link: "https://github.com/NonLegit/Front-End",
+  },
+  {
+    name: "Hand Gesture Recognition",
+    description:
+      "An implementation of a machine learning model for detecting and recognizing hand signs (0-5) accurately using Python. The project pipeline involves the following modules: Preprocessing, Feature Extraction, Model selection and training, and finally performance analysis.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Machine Learning",
+        color: "green-text-gradient",
+      },
+      {
+        name: "feature extraction",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: Hand_Gesture,
+    source_code_link:
+      "https://github.com/EslamAsHhraf/Hand-Gesture-Recognition",
+  },
+  {
+    name: "Grades Auto Filler",
+    description:
+      "Grades auto-filler provide an easy way to fill the grades electronically, and it should be able to correct MCQ bubble sheet exams automatically.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Machine Learning",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Image Processing",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Image classification",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: Grades_auto_filler,
+    source_code_link: "https://github.com/EslamAsHhraf/Grades-auto-filler",
+  },
+  {
+    name: "Flash",
+    description:
+      "A simple Crawler-based search engine that demonstrates the main features of a search engine (web crawling, indexing and ranking) and the interaction between them using Java and a Web Interface.",
+    tags: [
+      {
+        name: "Java",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Ranker",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Data Structure",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Indexer",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Advanced Programming Techniques ",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: flash,
+    source_code_link: "https://github.com/EslamAsHhraf/Flash",
+  },
+  {
+    name: "Captain Hook",
+    description:
+      "Captain Hook is a robot which makes food and drinks using a wide range of functionalities cooperating together by Arduino for the full cooking process.",
+    tags: [
+      {
+        name: "Arduino",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Robot",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Hardware",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Motors",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: captainHook,
+    source_code_link: "https://github.com/EslamAsHhraf/Captain-Hook",
+  },
+  {
+    name: "Operating System Scheduler",
+    description:
+      "A CPU scheduler determines an order for the execution of its scheduled processes. Operating System Scheduler decides which process will run according to a certain data structure that keeps track of the processes in the system and their status.",
+    tags: [
+      {
+        name: "C",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Linux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Cpu Scheduling",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Threads",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: operatingSystem,
+    source_code_link:
+      "https://github.com/EslamAsHhraf/Operating-System-Scheduler",
+  },
+  {
+    name: "Flappy Bird Game",
+    description:
+      "Flappy Bird is a side-scrolling mobile game featuring 2D retro style graphics. The objective is to direct a flying bird, named 'Faby', who moves continuously to the right, between sets of Mario-like pipes.",
+    tags: [
+      {
+        name: "Javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Game",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Web Development",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Flappy_Bird,
+    source_code_link: "https://github.com/EslamAsHhraf/Flappy-Bird-Game",
   },
 ];
 

@@ -7,24 +7,16 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import css from "./tech/css.png";
 import angular from "./tech/angular.png";
-import figma from "./tech/figma.png";
 import git from "./tech/git.png";
-import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import Net from "./tech/Net.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import scss from "./tech/scss.png";
 import C from "./tech/C_Logo.png";
-import C_sharp2 from "./tech/c_sharp2.png";
-import C_plus_plus from "./tech/c++.png";
 import Java from "./tech/Java.png";
-import firebase from "./tech/firebase.png";
 import Sql from "./tech/mysql.png";
 import Mui from "./tech/mui.png";
 import php from "./tech/php.png";
@@ -36,12 +28,17 @@ import Liquid_C2_MENA from "./company/Liquid_C2_MENA.jpg";
 import Lumin_Soft from "./company/Lumin_Soft.jpg";
 import bld from "./company/bld.jpg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import yummy_front from "./yummy_front.png";
+import yummy_back from "./yummy_back.png";
+import reddit from "./reddit.png";
+import Hand_Gesture from "./Hand-Gesture-Recognition.png";
+import Grades_auto_filler from "./Grades-auto-filler.png";
+import flash from "./flash.jpg"
+import captainHook from "./Captain-Hook.gif";
+import operatingSystem from "./Operating-System-Scheduler.png";
+import Flappy_Bird from "./Flappy-Bird-Game.gif";
 
 import LinkedIn from "./LinkedIn.png";
-import cv from "./Cv.png"
 export {
   logo,
   backend,
@@ -53,34 +50,31 @@ export {
   close,
   python,
   C,
-  C_sharp2,
-  C_plus_plus,
   Java,
   angular,
   reactjs,
-  figma,
   git,
-  html,
   javascript,
   mongodb,
   Net,
-  firebase,
   Sql,
   Mui,
   php,
   redux,
-  tailwind,
   typescript,
-  css,
-  scss,
   TEQNEIA,
   EJADA,
   Liquid_C2_MENA,
   Lumin_Soft,
-  carrent,
-  jobit,
-  tripguide,
+  yummy_front,
+  yummy_back,
+  reddit,
+  Hand_Gesture,
   bld,
   LinkedIn,
-  cv,
+  Grades_auto_filler,
+  flash,
+  captainHook,
+  operatingSystem,
+  Flappy_Bird,
 };
