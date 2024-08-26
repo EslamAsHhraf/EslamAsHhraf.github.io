@@ -27,6 +27,8 @@ import EJADA from "./company/EJADA.jpg";
 import Liquid_C2_MENA from "./company/Liquid_C2_MENA.jpg";
 import Lumin_Soft from "./company/Lumin_Soft.jpg";
 import bld from "./company/bld.jpg";
+import Digital_Bond from "./company/Digital_Bond.jpg";
+import Gsoc from "./company/gsoc.jpg"
 
 import yummy_front from "./yummy_front.png";
 import yummy_back from "./yummy_back.png";
@@ -64,7 +66,9 @@ export {
   typescript,
   TEQNEIA,
   EJADA,
+  Digital_Bond,
   Liquid_C2_MENA,
+  Gsoc,
   Lumin_Soft,
   yummy_front,
   yummy_back,

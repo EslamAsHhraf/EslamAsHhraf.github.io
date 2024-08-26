@@ -48,9 +48,7 @@ const About = () =>
         variants={ fadeIn( "", "", 0.1, 1 ) }
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a Software Engineer with Full-Stack Expertise
-        I am a Senior Computer Engineering Student from Cairo University. I have Software Engineering background,
-        especially web development. I love everything that has to do with computer science, programming, and machine learning.
+        I am a seasoned software engineer specializing in full-stack development, deeply passionate about all things related to computer science, programming, and the intriguing field of artificial intelligence. With a keen interest in exploring and mastering new technologies, I bring a wealth of experience and enthusiasm to any project I undertake. 
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

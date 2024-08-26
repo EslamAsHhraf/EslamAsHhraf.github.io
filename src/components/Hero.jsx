@@ -21,8 +21,8 @@ const Hero = () =>
             Hi, I'm <span className='text-[#915EFF]'>Eslam Ashraf</span>
           </h1>
           <p className={ `${styles.heroSubText} mt-2 text-white-100` }>
-            Senior Computer Engineering Student  <br className='sm:block hidden' />
-            at Cairo University
+            I am a recent graduate in Computer Engineering  <br className='sm:block hidden' />
+            from Cairo University
           </p>
           <div className={ `${styles.heroSubText} mt-8 text-white flex gap-5 flex-wrap` }>
             { socialLinks.map( ( social )  =>

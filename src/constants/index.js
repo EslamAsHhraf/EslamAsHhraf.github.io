@@ -18,6 +18,7 @@ import {
   typescript,
   TEQNEIA,
   Liquid_C2_MENA,
+  Gsoc,
   Lumin_Soft,
   EJADA,
   yummy_front,
@@ -32,6 +33,7 @@ import {
   captainHook,
   operatingSystem,
   Flappy_Bird,
+  Digital_Bond,
 } from "../assets";
 
 export const socialLinks = [
@@ -65,6 +67,10 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -149,6 +155,31 @@ const technologies = [
 const experiences = [
   {
     title: "Front-End Developer",
+    company_name: "Digital Bond",
+    icon: Digital_Bond,
+    iconBg: "#e2e4e6",
+    date: "Sep 2024 - Oct 2024",
+    points: [
+      "I was in Digital Bond as Frontend Developer internship using Angular.",
+      "Created an evaluation form with analysis and charts for the Holding Company for Water and Waste Water, allowing users to assess services, which helped the company improve service quality and customer engagement.",
+      "Developed and implemented a CRM system for the Egec website, resulting in a significant increase in website performance and user satisfaction.",
+      "Resolved issues and optimized performance on the Safaryti platform, ensuring seamless sharing of travel experiences and locations globally.",
+    ],
+  },
+  {
+    title: "Software Engineer",
+    company_name: "Google Summer of Code @Polypheny",
+    icon: Gsoc,
+    iconBg: "#fff",
+    date: "May 2024 - Aug 2024",
+    points: [
+      "The project is dedicated to enhancing the functionality of Polypheny Notebooks by incorporating an advanced presentation mode.",
+      "This innovative feature will transform notebooks into dynamic presentations structured around slides, providing users with a seamless transition between in-depth data exploration and a structured, narrative format.",
+      "Communicating with mentors to define tool use cases and required output.",
+    ],
+  },
+  {
+    title: "Front-End Developer",
     company_name: "Liquid C2 MENA",
     icon: Liquid_C2_MENA,
     iconBg: "#FFFFFF",
@@ -161,7 +192,7 @@ const experiences = [
     ],
   },
   {
-    title: "Full-Stack Developer",
+    title: "Full-Stack Developer Intern",
     company_name: "Lumin Soft",
     icon: Lumin_Soft,
     iconBg: "#FFFFFF",
@@ -172,7 +203,7 @@ const experiences = [
     ],
   },
   {
-    title: "Software Developer",
+    title: "Software Developer Intern",
     company_name: " EJADA",
     icon: EJADA,
     iconBg: "#FFFFFF",
@@ -184,7 +215,7 @@ const experiences = [
     ],
   },
   {
-    title: "Front-End Developer",
+    title: "Front-End Developer Intern",
     company_name: " TEQNEIA ICT",
     icon: TEQNEIA,
     iconBg: "#FFFFFF",
@@ -197,7 +228,7 @@ const experiences = [
     ],
   },
   {
-    title: "Full-Stack Developer",
+    title: "Full-Stack Developer Intern",
     company_name: " bld.ai",
     icon: bld,
     iconBg: "#FFFFFF",
