@@ -42,6 +42,11 @@ import operatingSystem from "./Operating-System-Scheduler.png";
 import Flappy_Bird from "./Flappy-Bird-Game.gif";
 
 import LinkedIn from "./LinkedIn.png";
+import Gmail from "./gmail.png"
+
+
+import Microsoft from "./honors/microsoft.jpg"
+import Dell from "./honors/dell.jpg";
 export {
   logo,
   backend,
@@ -78,9 +83,12 @@ export {
   Hand_Gesture,
   bld,
   LinkedIn,
+  Gmail,
   Grades_auto_filler,
   flash,
   captainHook,
   operatingSystem,
   Flappy_Bird,
+  Microsoft,
+  Dell,
 };

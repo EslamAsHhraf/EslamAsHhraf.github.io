@@ -27,6 +27,7 @@ import {
   reddit,
   bld,
   LinkedIn,
+  Gmail,
   github,
   Hand_Gesture,
   Grades_auto_filler,
@@ -51,6 +52,12 @@ export const socialLinks = [
     icon: github,
   },
   {
+    id: "email",
+    title: "Email",
+    link: "mailto:eslamashraf.12342@gmail.com",
+    icon: Gmail,
+  },
+  {
     id: "resume",
     title: "Resume",
     link: "https://drive.google.com/file/d/1_lhrx6Dm1rigoqJKfxISz8dxM3MsYRo1/view?usp=sharing",
@@ -72,6 +79,10 @@ export const navLinks = [
   {
     id: "projects",
     title: "Projects",
+  },
+  {
+    id: "honors",
+    title: "Honors",
   },
   {
     id: "contact",

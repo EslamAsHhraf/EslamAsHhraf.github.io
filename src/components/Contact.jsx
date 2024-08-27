@@ -6,6 +6,8 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () =>
 {
@@ -33,7 +35,6 @@ const Contact = () =>
   {
     e.preventDefault();
     setLoading( true );
-    console.log( import.meta.env.VITE_APP_EMAILJS_SERVICE_ID)
     emailjs
       .send(
         import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
@@ -51,8 +52,7 @@ const Contact = () =>
         () =>
         {
           setLoading( false );
-          alert( "Thank you. I will get back to you as soon as possible." );
-
+          toast.success( "Thank you. I will get back to you as soon as possible." );
           setForm( {
             name: "",
             email: "",
@@ -62,9 +62,7 @@ const Contact = () =>
         ( error ) =>
         {
           setLoading( false );
-          console.error( error );
-
-          alert( "Ahh, something went wrong. Please try again." );
+          toast.error( "Ahh, something went wrong. Please try again." );
         }
       );
   };
@@ -134,6 +132,7 @@ const Contact = () =>
       >
         <EarthCanvas />
       </motion.div>
+      <ToastContainer theme="dark" position="bottom-right" />
     </div>
   );
 };
