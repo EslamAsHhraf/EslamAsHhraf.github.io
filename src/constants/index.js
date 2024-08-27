@@ -18,6 +18,7 @@ import {
   typescript,
   TEQNEIA,
   Liquid_C2_MENA,
+  Siemens,
   Gsoc,
   Lumin_Soft,
   EJADA,
@@ -153,6 +154,18 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Software Engineer Trainee",
+    company_name: "Siemens",
+    icon: Siemens,
+    iconBg: "#019998",
+    date: "Jul 2024 - current",
+    points: [
+      "Developed proficiency in advanced software design and architecture principles.Gained expertise in writing efficient code using appropriate data structures and algorithms.",
+      "Hands-on experience with industry-standard tools and utilities used in professional software development. ",
+      "Collaborated with peers in a simulated real-world environment to deliver a software solution. Applied best practices in software engineering, focusing on creating scalable and maintainable code.",
+    ],
+  },
   {
     title: "Front-End Developer",
     company_name: "Digital Bond",

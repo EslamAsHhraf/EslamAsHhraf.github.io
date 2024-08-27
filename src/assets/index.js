@@ -29,6 +29,7 @@ import Lumin_Soft from "./company/Lumin_Soft.jpg";
 import bld from "./company/bld.jpg";
 import Digital_Bond from "./company/Digital_Bond.jpg";
 import Gsoc from "./company/gsoc.jpg"
+import Siemens from"./company/siemens.jpg"
 
 import yummy_front from "./yummy_front.png";
 import yummy_back from "./yummy_back.png";
@@ -69,6 +70,7 @@ export {
   Digital_Bond,
   Liquid_C2_MENA,
   Gsoc,
+  Siemens,
   Lumin_Soft,
   yummy_front,
   yummy_back,
