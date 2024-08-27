@@ -29,7 +29,8 @@ import Lumin_Soft from "./company/Lumin_Soft.jpg";
 import bld from "./company/bld.jpg";
 import Digital_Bond from "./company/Digital_Bond.jpg";
 import Gsoc from "./company/gsoc.jpg"
-import Siemens from"./company/siemens.jpg"
+import Siemens from "./company/siemens.jpg"
+import Saudi_Society from"./company/Saudi_Society.jpg"
 
 import yummy_front from "./yummy_front.png";
 import yummy_back from "./yummy_back.png";
@@ -77,6 +78,7 @@ export {
   Gsoc,
   Siemens,
   Lumin_Soft,
+  Saudi_Society,
   yummy_front,
   yummy_back,
   reddit,

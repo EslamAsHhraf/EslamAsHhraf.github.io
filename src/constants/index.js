@@ -18,6 +18,7 @@ import {
   typescript,
   TEQNEIA,
   Liquid_C2_MENA,
+  Saudi_Society,
   Siemens,
   Gsoc,
   Lumin_Soft,
@@ -178,6 +179,18 @@ const experiences = [
     ],
   },
   {
+    title: "Full-Stack Developer",
+    company_name: "Saudi Society of Cytotechnology and Histotechnology",
+    icon: Saudi_Society,
+    iconBg: "#fff",
+    date: "Jun 2024 - Sep 2024",
+    points: [
+      "Worked as a full-stack freelancer for the Saudi Society of Cytotechnology and Histotechnology, developing a comprehensive Virtual Slide Platform that included secure slide upload, annotation, case assignment, and user management features.",
+      "Developed a Virtual Slide Platform that enabled secure upload, annotation, and sharing of cytology slides, enhancing collaboration between students and administrators.",
+      "Implemented advanced features such as individualized annotations, case assignments, and customizable diagnostic tools, improving educational workflows.",
+    ],
+  },
+  {
     title: "Front-End Developer",
     company_name: "Digital Bond",
     icon: Digital_Bond,
@@ -197,9 +210,9 @@ const experiences = [
     iconBg: "#fff",
     date: "May 2024 - Aug 2024",
     points: [
+      "Communicating with mentors to define tool use cases and required output.",
       "The project is dedicated to enhancing the functionality of Polypheny Notebooks by incorporating an advanced presentation mode.",
       "This innovative feature will transform notebooks into dynamic presentations structured around slides, providing users with a seamless transition between in-depth data exploration and a structured, narrative format.",
-      "Communicating with mentors to define tool use cases and required output.",
     ],
   },
   {
@@ -210,7 +223,6 @@ const experiences = [
     date: "Sep 2023 - Oct 2023",
     points: [
       "I was in Liquid C2 MENA as Frontend Developer internship using React with Next using type script.",
-      "Learned more about frontend developer responsibilities and Web development life cycle stages.",
       "I worked on Production Stage for Website used to generate reports which saves time to security team.",
       "Maintained an organized workflow using project management tools like Jira, Teams and Azure.",
     ],
@@ -235,7 +247,6 @@ const experiences = [
     points: [
       "I was in EJADA in Oracle (ERP) Applications Development Department as internship..",
       "Learned more about Oracle Applications, SQL, PL/SQL and Apex.",
-      "Maintained an organized workflow using project management tools and soft skills.",
     ],
   },
   {
@@ -246,9 +257,7 @@ const experiences = [
     date: "Jun 2023 - Jul 2023",
     points: [
       "I was in TEQNEIA ICT as Frontend internship using React by TypeScript , Redux Toolkit, MUI and Tailwind.",
-      "We built E-martes website which allows customers to purchase a wide variety of products online. The website has a user-friendly interface that makes it easy to browse through different categories of items and find what you’re looking for. E-martes offers a broad range of products, including clothing, shoes, accessories, electronics, home appliances, and more. Each product has a detailed description that includes information about its features, price, and availability. ",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Learned the Web development life cycle stages. used project management ClickUp.",
+      "We built E-martes website which allows customers to purchase a wide variety of products online. Each product has a detailed description that includes information about its features, price, and availability. ",
     ],
   },
   {
