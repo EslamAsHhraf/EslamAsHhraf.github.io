@@ -48,6 +48,23 @@ import Gmail from "./gmail.png"
 
 import Microsoft from "./honors/microsoft.jpg"
 import Dell from "./honors/dell.jpg";
+
+
+import Bldai_Certificate from "./Certificates/bldai.png";
+import C_Certificate from "./Certificates/c++.png";
+import Completion_GSOC_Certificate from "./Certificates/completion_certificate_2024_contributor.png";
+import Advanced_Learning_Certificate from "./Certificates/Advanced Learning Algorithms Certificate.png";
+import ECPC_Certificate from "./Certificates/ecpc.png";
+import Ejada_Certificate from "./Certificates/Ejada Certificate.jpg";
+import git_Certificate from "./Certificates/git.png";
+import hdBank_Certificate from "./Certificates/hdBank.jpg";
+import Line_Follower_Certificate from "./Certificates/Line Follower.jpg";
+import Lumin_Soft_Certificate from "./Certificates/Lumin Soft.jpg";
+import ML_Certificate from "./Certificates/ML.png";
+import Supervised_ML_Certificate from "./Certificates/Supervised Machine Learning Regression and Classification Certifiacate.png";
+import Unsupervised_ML_Certificate from "./Certificates/unsupervised.png";
+
+
 export {
   logo,
   backend,
@@ -93,4 +110,21 @@ export {
   Flappy_Bird,
   Microsoft,
   Dell,
+};
+
+
+export const certificate = {
+  Bldai_Certificate,
+  C_Certificate,
+  Completion_GSOC_Certificate,
+  Advanced_Learning_Certificate,
+  ECPC_Certificate,
+  Ejada_Certificate,
+  git_Certificate,
+  hdBank_Certificate,
+  Line_Follower_Certificate,
+  Lumin_Soft_Certificate,
+  ML_Certificate,
+  Supervised_ML_Certificate,
+  Unsupervised_ML_Certificate,
 };

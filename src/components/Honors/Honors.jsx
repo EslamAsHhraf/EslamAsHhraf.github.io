@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { fadeIn, textVariant } from "../../utils/motion";
 import { Microsoft, Dell } from "../../assets";
 import { Link } from "react-router-dom";
+import Certificate from "./Certificate";
 
 const Honors = () =>
 {
@@ -93,7 +94,7 @@ const Honors = () =>
                     </div>
                 </div>
             </motion.div>
-            
+            <Certificate/>
 
         </>
     );
