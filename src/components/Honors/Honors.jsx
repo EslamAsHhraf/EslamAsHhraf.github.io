@@ -53,7 +53,7 @@ const Honors = () =>
                         </ul>
                     </div>
                     <div className="max-w-[100%] md:max-w-[48%]">
-                        <img src={ Microsoft } className="rounded-2xl"/>
+                        <img loading="lazy"  src={ Microsoft } className="rounded-2xl"/>
                     </div>
                 </div>
             </motion.div>
@@ -90,7 +90,7 @@ const Honors = () =>
                         </ul>
                     </div>
                     <div className="max-w-[100%] md:max-w-[48%] ">
-                        <img src={ Dell } className="rounded-2xl " />
+                        <img loading="lazy"  src={ Dell } className="rounded-2xl " />
                     </div>
                 </div>
             </motion.div>

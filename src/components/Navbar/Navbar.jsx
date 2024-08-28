@@ -46,7 +46,7 @@ const Navbar = () =>
             window.scrollTo( 0, 0 );
           } }
         >
-          <img src={ logo } alt='logo' className='w-9 h-9 object-contain' />
+          <img loading="lazy"  src={ logo } alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
              &nbsp;
             <span className='sm:block hidden'> | Eslam Ahraf</span>
@@ -68,6 +68,7 @@ const Navbar = () =>
 
         <div className='md:hidden flex flex-1 justify-end items-center'>
           <img
+            loading="lazy" 
             src={ toggle ? close : menu }
             alt='menu'
             className='w-[28px] h-[28px] object-contain'

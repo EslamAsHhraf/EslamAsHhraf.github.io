@@ -13,7 +13,7 @@ const Certificate = () =>
                        
                         <div className='image' key={ index }>
                             <Link to={ ele.link } target='_blank'>
-                                <img className='img-card' src={ ele.image } alt={ ele.alt } />
+                                <img loading="lazy"  className='img-card' src={ ele.image } alt={ ele.alt } />
                             </Link>    
                         </div>
                       
@@ -23,7 +23,7 @@ const Certificate = () =>
                     { certificateCards.map( ( ele, index ) => (
                         <div className='image' key={ index }>
                             <Link to={ ele.link } target='_blank'>
-                                <img className='img-card' src={ ele.image } alt={ ele.alt } />
+                                <img loading="lazy" className='img-card' src={ ele.image } alt={ ele.alt } />
                             </Link>
                         </div>
 

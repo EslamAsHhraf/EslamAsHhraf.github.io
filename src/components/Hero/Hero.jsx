@@ -30,7 +30,7 @@ const Hero = () =>
               <div className='w-fit text-[18px] font-small green-pink-gradient p-[1px] rounded-[20px] shadow-card' key={social.id}>
                 <Link to={social.link} target="_blank">
                   <button className='bg-tertiary rounded-[20px] py-3 px-6  flex gap-2  items-center justify-center h-[64px]'  >
-                    { social.icon && <img className='w-8 h-8 object-contain' src={ social.icon }></img> }
+                    { social.icon && <img loading="lazy"  className='w-8 h-8 object-contain' src={ social.icon }></img> }
                     {social.title}
                   </button>
                 </Link>
