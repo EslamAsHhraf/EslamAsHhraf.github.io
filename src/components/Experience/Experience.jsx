@@ -53,6 +53,7 @@ const ExperienceCard = ( { experience } ) =>
             { point }
           </li>
         ) ) }
+        
       </ul>
     </VerticalTimelineElement>
   );
@@ -61,7 +62,7 @@ const ExperienceCard = ( { experience } ) =>
 const Experience = () =>
 {
   return (
-    <>
+    <div>
       <div variants={ textVariant() }>
         <p className={ `${styles.sectionSubText} text-center` }>
           What I have done so far
@@ -71,7 +72,7 @@ const Experience = () =>
         </h2>
       </div>
 
-      <div className='mt-20 flex flex-col'>
+      <div className='mt-20 flex flex-col relative'>
         <VerticalTimeline>
           { experiences.map( ( experience, index ) => (
             <ExperienceCard
@@ -79,9 +80,23 @@ const Experience = () =>
               experience={ experience }
             />
           ) ) }
+          
         </VerticalTimeline>
+        <div
+          class="absolute z-[3] w-[20%] h-[10%] top-24 -left-1/2 rounded-full white__gradient"
+        ></div>
+        <div
+          class="absolute z-[0] w-[20%] h-[10%] top-24 -left-1/2  rounded-full pink__gradient"
+        ></div>
+
+        <div
+          class="absolute z-[3] w-[10%] h-[7%] bottom-24 right-0 rounded-full white__gradient"
+        ></div>
+        <div
+          class="absolute z-[0] w-[10%] h-[7%] bottom-24 right-0  rounded-full pink__gradient"
+        ></div>
       </div>
-    </>
+    </div>
   );
 };
 
