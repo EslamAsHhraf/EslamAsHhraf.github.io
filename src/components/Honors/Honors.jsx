@@ -1,9 +1,9 @@
 import React from "react";
-import { styles } from "../styles";
-import { SectionWrapper } from "../hoc";
+import { styles } from "../../styles";
+import { SectionWrapper } from "../../hoc";
 import { motion } from "framer-motion";
-import { fadeIn, textVariant } from "../utils/motion";
-import { Microsoft, Dell } from "../assets";
+import { fadeIn, textVariant } from "../../utils/motion";
+import { Microsoft, Dell } from "../../assets";
 import { Link } from "react-router-dom";
 
 const Honors = () =>

@@ -1,6 +1,6 @@
 
-import { styles } from "../styles";
-import { socialLinks} from "../constants/index";
+import { styles } from "../../styles";
+import { socialLinks} from "../../constants/index";
 import { Link } from "react-router-dom";
 
 const Hero = () =>

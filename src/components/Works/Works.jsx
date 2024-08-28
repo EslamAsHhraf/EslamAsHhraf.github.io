@@ -1,10 +1,10 @@
 import React from "react";
 
-import { styles } from "../styles";
-import { github } from "../assets";
-import { SectionWrapper } from "../hoc";
-import { projects } from "../constants";
-import { fadeIn } from "../utils/motion";
+import { styles } from "../../styles";
+import { github } from "../../assets";
+import { SectionWrapper } from "../../hoc";
+import { projects } from "../../constants";
+import { fadeIn } from "../../utils/motion";
 
 const ProjectCard = ( {
   index,

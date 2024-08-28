@@ -9,7 +9,7 @@ import
     useTexture,
   } from "@react-three/drei";
 
-import CanvasLoader from "../Loader";
+import CanvasLoader from "../Lodder/Loader";
 
 const Ball = ( props ) =>
 {
